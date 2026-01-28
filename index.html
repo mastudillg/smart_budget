@@ -16,6 +16,218 @@
     ></script>
   </head>
   <body>
-    <h1>Prueba Bootstrap</h1>
+    <!-- Sección Nav -->
+    <div class="bg-white">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+          <img src="./assets/img/Logo.png" width="200" alt="Logo" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inicio de sesión</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Registrarse</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  más
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Blog</a>
+                  <a class="dropdown-item" href="#">Sobre nosotros</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Sección Hero -->
+
+    <section class="bg-sb-background py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Texto -->
+          <div class="col-md-6 text-sb-dark">
+            <h1>Gestiona tus finanzas de manera inteligente</h1>
+            <p>Ahorra tiempo y dinero con nuestra aplicación fácil de usar</p>
+            <button class="btn btn-sb-primary rounded-pill">
+              Empieza ahora
+            </button>
+          </div>
+
+          <!-- Imagen -->
+          <div class="col-md-6 text-center text-sb-dark">
+            <img
+              src="./assets/img/Gestion financiera.png"
+              class="img-fluid"
+              alt="App SmartBudget"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Beneficios -->
+    <section class="my-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Beneficios</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 py-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <div class="d-flex align-items-start">
+                  <img
+                    src="./assets/img/Icono-facil.png"
+                    alt="Fácil y rápido"
+                    class="benefit__icon mr-3"
+                  />
+                  <div>
+                    <h5 class="card-title mb-1">Rápido y fácil</h5>
+                    <p class="card-text">
+                      Organiza tus gastos e ingresos de forma sencilla e
+                      intuitiva.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 py-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <div class="d-flex align-items-start">
+                  <img
+                    src="./assets/img/Icono-seguro.jpg"
+                    alt="Seguro"
+                    class="benefit__icon mr-3"
+                  />
+                  <div>
+                    <h5 class="card-title mb-1">Seguro y privado</h5>
+                    <p class="card-text">
+                      Tus datos están protegidos con cifrado avanzada.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 py-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <div class="d-flex align-items-start">
+                  <img
+                    src="./assets/img/Icono-ahorro.png"
+                    alt="Ahorros"
+                    class="benefit__icon mr-3"
+                  />
+                  <div>
+                    <h5 class="card-title mb-1">Optimiza tus ahorros</h5>
+                    <p class="card-text">
+                      Obtén recomendaciones personalizadas para maximizar tus
+                      ahorros.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Logo -->
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img
+              class="footer__image"
+              src="./assets/img/Logoblanco.png"
+              alt="Logo"
+            />
+          </div>
+          <!-- Links -->
+          <div class="col-md-6 footer__nav">
+            <div class="row">
+              <!-- Columna 1 -->
+              <div class="col-6">
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Registrarse</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Columna 2 -->
+              <div class="col-6">
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Preguntas Frecuentes</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-top border-sb-muted mt-4">
+        <p class="text-center text-sb-background py-4 mb-0">
+          2025 © SmartBudget. Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

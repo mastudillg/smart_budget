@@ -1,0 +1,17 @@
+/* Mapa de colores de SmartBudget */
+$sb-colores: (
+  // Botones principales y CTA
+  sb-primary: #4caf83,
+  // Enlaces e iconos secundarios
+  sb-secondary: #6cb6f5,
+  // Títulos y encabezados
+  sb-dark: #0d304a,
+  // Fondo general
+  sb-background: #f8f9fa,
+  // Texto secundario
+  sb-muted: #495057
+);
+
+// Fuente o tipografía
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+$sb-font: "Montserrat", sans-serif;

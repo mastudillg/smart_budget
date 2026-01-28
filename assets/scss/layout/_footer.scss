@@ -1,0 +1,39 @@
+@use "../abstracts/variables";
+@use "sass:map";
+
+.footer {
+  padding: 1rem;
+  background-color: map.get(variables.$sb-colores, "sb-dark");
+
+  &__image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; // centra el logo
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; // 🔑 clave para mobile
+    text-align: center; // 🔑 centra texto
+
+    @media (min-width: 768px) {
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    .nav {
+      align-items: center;
+
+      @media (min-width: 768px) {
+        align-items: flex-start;
+      }
+    }
+  }
+
+  .nav-link {
+    color: map.get(variables.$sb-colores, "sb-primary");
+  }
+}
