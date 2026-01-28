@@ -50,4 +50,4 @@ Además, se utilizaron mixins personalizados en SASS para manejar breakpoints de
 
 ## 🚀 Autor
 
-Proyecto desarrollado por _(tu nombre)_
+Proyecto desarrollado por _(Marianny Astudillo)_
