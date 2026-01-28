@@ -17,7 +17,7 @@ Cada componente fue desarrollado como un bloque independiente, con elementos y m
 
 ## 🎨 Uso de SASS y arquitectura 7–1
 
-El proyecto implementa **SASS (SCSS)** como preprocesador de estilos, utilizando la arquitectura **7–1**, separando los estilos según su responsabilidad:
+El proyecto implementa **SASS (SCSS)** como pre procesador de estilos, utilizando la arquitectura **7–1**, separando los estilos según su responsabilidad:
 
 - `abstracts`: variables, mixins y mapas de colores
 - `base`: estilos base y configuraciones globales
